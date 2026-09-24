@@ -122,7 +122,9 @@
   /* others */
   --tasa-orbiter: "TASA Orbiter", sans-serif;
 }
-
+body{
+  background-color:
+}
 /*styling header text*/
 
 h1{
@@ -133,5 +135,33 @@ h2{
 }
 
 nav{
-  grid-template-rows: 1/5
+  grid-template-rows:
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr; /* sidebar width + flexible content */
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: #f4f4f4;
+  padding: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  background: #ddd;
 }
