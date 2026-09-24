@@ -167,12 +167,12 @@ nav{
 }
 
 
-.mixed ul{
+.recommended ul{
     display: grid;
     position: relative;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5%;
-    padding: 0 5%;
-    margin-bottom: 400%;
+    padding: 5%;
+    color: #d6439f;
     
 }
