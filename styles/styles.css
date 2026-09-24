@@ -176,6 +176,6 @@ nav{
     list-style: none;  
 
     .recommended li {
-  background: #d6439f; !important; /* the color block */
+  background: #d6439f;  /* the color block */
   padding: 5%;
 }
