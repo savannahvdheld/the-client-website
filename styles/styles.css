@@ -1,4 +1,6 @@
 /* CSS */
+
+/*Styling kleuren huisstijl Pediaconnect*/
 :root {
   /* colors */
   --base-xivier-blue: #66b3df;
@@ -121,3 +123,15 @@
   --tasa-orbiter: "TASA Orbiter", sans-serif;
 }
 
+/*styling header text*/
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+nav{
+  grid-template-rows: 1/5
+}
