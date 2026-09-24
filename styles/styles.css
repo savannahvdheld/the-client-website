@@ -161,11 +161,11 @@ nav{
   text-decoration: none;
   color: #333;
 }
+
 /*styling navigatie bar hover effect*/
 .sidebar a:hover {
   background: #66c7b4;
 }
-
 
 .recommended ul{
     display: grid;
@@ -173,6 +173,9 @@ nav{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5%;
     padding: 5%;
-    color: #d6439f;
-    
+    list-style: none;  
+
+    .recommended li {
+  background: #d6439f; !important; /* the color block */
+  padding: 5%;
 }
