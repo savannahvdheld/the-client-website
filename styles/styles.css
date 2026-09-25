@@ -181,6 +181,7 @@ nav{
 .recommended ul{
   
   background: #dadada;
+  border-radius:15%;
   display: grid;
    grid-template-columns: 1fr 1fr 1fr;
     position: relative;
