@@ -126,6 +126,7 @@
 body{
   background-color:#f2f2f2;
 }
+
 /*styling header text*/
 
 h1{
@@ -139,6 +140,8 @@ h3{
   text-align:start
   padding: 1rem;
 }
+
+/*Styling li uit unordered list*/
 
 li{
   text-align:center;
@@ -181,7 +184,6 @@ nav{
 .recommended ul{
   
   background: #dadada;
-  border-radius:15%;
   display: grid;
    grid-template-columns: 1fr 1fr 1fr;
     position: relative;
