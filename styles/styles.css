@@ -123,6 +123,11 @@
   --tasa-orbiter: "TASA Orbiter", sans-serif;
 }
 
+@font-face {
+    font-family: "Tasa Orbiter";
+   src: url(../assets/TASAOrbiter-Regular.ttf) format("truetype");
+}
+
 /*achtergrond kleur van de site*/
 body{
   background-color:#f2f2f2;
@@ -175,6 +180,14 @@ nav{
   padding: 0.5rem 1rem;
   text-decoration: none;
   color: #333;
+}
+
+/*styling font text*/
+
+.h1,
+.h2,
+.h3{
+    font-family: "Tasa Orbiter", sans-serif;
 }
 
 /*styling navigatie bar hover effect*/
