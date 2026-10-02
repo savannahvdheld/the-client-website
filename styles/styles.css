@@ -3,14 +3,14 @@
 /*Styling kleuren huisstijl Pediaconnect*/
 :root {
   /* colors */
-  --base-xivier-blue: #66b3df;
-  --base-cockatoo: #66c7b4;
-  --base-lustful-wishes: #d6439f;
-  --base-night-rider: #322f2f;
-  --base-bleached-silk: #f2f2f2;
+  --base-xivier-blue: #66b3df; /*Lichtblauw*/
+  --base-cockatoo: #66c7b4; /*Licht groen*/
+  --base-lustful-wishes: #d6439f; /*Roze*/
+  --base-night-rider: #322f2f; /*Zwart*/
+  --base-bleached-silk: #f2f2f2; /*Wit*/
 
   /* xavier-blue darker shades */
-  --d100-xavier-blue: #5ca1c9;
+  --d100-xavier-blue: #5ca1c9; /*Alle shades van blauw*/
   --d200-xavier-blue: #528fb2;
   --d300-xavier-blue: #477d9c;
   --d400-xavier-blue: #3d6b86;
@@ -130,15 +130,15 @@
 
 /*achtergrond kleur van de site*/
 body{
-  background-color:#f2f2f2;
+  background-color:#f2f2f2; /*Grijs-wit*/
 }
-
+/*Styling logo*/
 .Logo_Pediaconnect{
 display:flex;
 justify-self: center;
 }
-/*styling header text*/
 
+/*styling header text*/
 h1{
   text-align: center;
 }
@@ -152,7 +152,6 @@ h3{
 }
 
 /*Styling li uit unordered list*/
-
 li{
   text-align:center;
 
