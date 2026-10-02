@@ -133,6 +133,10 @@ body{
   background-color:#f2f2f2;
 }
 
+.Logo_Pediaconnect{
+display:flex;
+justify-self: center;
+}
 /*styling header text*/
 
 h1{
@@ -166,6 +170,7 @@ nav{
 
 .sidebar {
   background: #ffffff;
+   border-radius:20px;
   padding: 1rem;
 }
 
@@ -203,6 +208,7 @@ nav{
    grid-template-columns: 1fr 1fr 1fr;
     position: relative;
     gap: 5%;
+    border-radius:20px;
     margin: 3%;
     padding: 5%;
     list-style: none;  
