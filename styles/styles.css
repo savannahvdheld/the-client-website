@@ -175,8 +175,8 @@ nav { /*moet nog ingevuld worden*/
 }
 
   .layout {
-  display: grid;
-  grid-template-columns: 375px;
+  /* display: grid; */
+  /* grid-template-columns: 375px; */
   min-height: 100vh;
 }
 
@@ -219,10 +219,13 @@ h3 {
 .recommended ul {
 
   background: #dadada;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+
+  display:flex;
+  flex-wrap: wrap;
   position: relative;
-  gap: 5%;
+  gap: 1em;
   border-radius: 20px;
   margin: 3%;
   padding: 5%;
@@ -230,13 +233,20 @@ h3 {
 
   li {
     background: #d6439f;
+    flex-grow:1;
   }
 
-  li {
+  a {
+    display:block;
+    padding:1em;
+  }
+
+
+  li:nth-of-type(2) {
     background: #66c7b4;
   }
 
-  li {
+  li:nth-of-type(3) {
     background: #66b3df;
   }
 }
