@@ -167,6 +167,7 @@ h3 {
 /*Styling li uit unordered list*/
 li {
   text-align: center;
+  list-style: none;
 
 }
 
@@ -254,5 +255,13 @@ h3 {
     background: #66b3df;
     border-radius: 20px;
   }
+}
+footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color:#f2f2f2;
+        width: 100%;
 }
 
