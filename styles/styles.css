@@ -3,14 +3,20 @@
 /*Styling kleuren huisstijl Pediaconnect*/
 :root {
   /* colors */
-  --base-xivier-blue: #66b3df; /*Lichtblauw*/
-  --base-cockatoo: #66c7b4; /*Licht groen*/
-  --base-lustful-wishes: #d6439f; /*Roze*/
-  --base-night-rider: #322f2f; /*Zwart*/
-  --base-bleached-silk: #f2f2f2; /*Wit*/
+  --base-xivier-blue: #66b3df;
+  /*Lichtblauw*/
+  --base-cockatoo: #66c7b4;
+  /*Licht groen*/
+  --base-lustful-wishes: #d6439f;
+  /*Roze*/
+  --base-night-rider: #322f2f;
+  /*Zwart*/
+  --base-bleached-silk: #f2f2f2;
+  /*Wit*/
 
   /* xavier-blue darker shades */
-  --d100-xavier-blue: #5ca1c9; /*Alle shades van blauw*/
+  --d100-xavier-blue: #5ca1c9;
+  /*Alle shades van blauw*/
   --d200-xavier-blue: #528fb2;
   --d300-xavier-blue: #477d9c;
   --d400-xavier-blue: #3d6b86;
@@ -124,75 +130,78 @@
 }
 
 @font-face {
-    font-family: "Tasa Orbiter";
-   src: url(../assets/TASAOrbiter-Regular.ttf) format("truetype");
+  font-family: "Tasa Orbiter";
+  src: url(../assets/TASAOrbiter-Regular.ttf) format("truetype");
 }
 
 /*achtergrond kleur van de site*/
-body{
-  background-color:#f2f2f2; /*Grijs-wit*/
+body {
+  background-color: #f2f2f2;
+  /*Grijs-wit*/
   font-family: 'Tasa orbiter', sans-serif;
 }
+
 /*Styling logo*/
-.Logo_Pediaconnect{
-display:flex;
-justify-self: center;
+.Logo_Pediaconnect {
+  display: flex;
+  justify-self: center;
 }
 
 /*styling header text*/
-h1{
-  text-align: center;
-}
-h2{
+h1 {
   text-align: center;
 }
 
-h3{
-  text-align:start
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: start;
   padding: 1rem;
 }
 
 /*Styling li uit unordered list*/
-li{
-  text-align:center;
+li {
+  text-align: center;
 
 }
 
 /*styling navigatie bar*/
-nav{
-  grid-template-rows:
+nav { /*moet nog ingevuld worden*/
 }
-.layout {
+
+  .layout {
   display: grid;
-  grid-template-columns: 220px 1fr; 
+  grid-template-columns: 220px 1fr;
   min-height: 100vh;
 }
 
 .sidebar {
   background: #ffffff;
-   border-radius:20px;
+  border-radius: 20px;
   padding: 1rem;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333;
+  }
 }
 
-.sidebar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.sidebar a {
-  display: block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: #333;
-}
 
 /*styling font text*/
-
-.h1,
-.h2,
-.h3{
-    font-family: "Tasa Orbiter", sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Tasa Orbiter", sans-serif;
 }
 
 /*styling navigatie bar hover effect*/
@@ -201,25 +210,27 @@ nav{
 }
 
 /*styling Recommended sectie dashboard*/
-.recommended ul{
-  
+.recommended ul {
+
   background: #dadada;
   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-    position: relative;
-    gap: 5%;
-    border-radius:20px;
-    margin: 3%;
-    padding: 5%;
-    list-style: none;  
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  gap: 5%;
+  border-radius: 20px;
+  margin: 3%;
+  padding: 5%;
+  list-style: none;
 
-.recommended li{
-background:#66c7b4;
-}
+  li {
+    background: #d6439f;
+  }
 
-.recommended li{
-background:#66c7b4;
-}
-.recommended li{
-  background:#66b3df;
+  li {
+    background: #66c7b4;
+  }
+
+  li {
+    background: #66b3df;
+  }
 }
