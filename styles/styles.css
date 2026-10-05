@@ -131,6 +131,7 @@
 /*achtergrond kleur van de site*/
 body{
   background-color:#f2f2f2; /*Grijs-wit*/
+  font-family: 'Tasa orbiter', sans-serif;
 }
 /*Styling logo*/
 .Logo_Pediaconnect{
