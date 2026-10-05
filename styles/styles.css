@@ -215,6 +215,8 @@ h3 {
   background: #66c7b4;
 }
 
+
+
 /*styling Recommended sectie dashboard*/
 .recommended ul {
 
@@ -234,6 +236,7 @@ h3 {
   li {
     background: #d6439f;
     flex-grow:1;
+    border-radius: 20px;
   }
 
   a {
@@ -244,10 +247,12 @@ h3 {
 
   li:nth-of-type(2) {
     background: #66c7b4;
+    border-radius: 20px;
   }
 
   li:nth-of-type(3) {
     background: #66b3df;
+    border-radius: 20px;
   }
 }
 
