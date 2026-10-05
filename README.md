@@ -25,7 +25,8 @@ De instructie van deze leertaak staan in de [WIKI](https://github.com/fdnd-task/
 Figma overdracht display website: https://www.figma.com/design/EJEXRWKJcgaRjUzIWEhgq9/OVERDRACHT-Pediaconnect--FINAL-version-NVK-kleuren-?node-id=3200-14993&p=f&t=JsWn7Zt0cfGubdcE-0
 
 <br> Figma overdracht ontwerp site: https://www.figma.com/proto/EJEXRWKJcgaRjUzIWEhgq9/OVERDRACHT-Pediaconnect--FINAL-version-NVK-kleuren-?node-id=3065-22416&p=f&t=JsWn7Zt0cfGubdcE-0&scaling=min-zoom&content-scaling=fixed&page-id=6%3A2&starting-point-node-id=3065%3A22416 <br>
-<br> Eigen figma ontwerp om in te werken.
+<br> Eigen figma ontwerp om in te werken: https://www.figma.com/design/IGIOa9BLY5SM6xbkb9U8un/Werkfigma-pediaonnect?node-id=0-1&t=9Ix4cf1QiijmXc1R-1
+
 
 
 
