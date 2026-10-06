@@ -256,6 +256,27 @@ h3 {
     border-radius: 20px;
   }
 }
+line{
+--i: calc(100% / 14);
+
+  height: 2px;
+  background: 
+    linear-gradient(to right, var(--d200-bleached-silk) calc(var(--i) / 2),
+                    transparent calc(var(--i) / 2) calc(var(--i) * 1.5),
+                    var(--d200-bleached-silk) calc(var(--i) * 1.5) calc(var(--i) * 2.5),
+                    transparent calc(var(--i) * 2.5) calc(var(--i) * 3.5),
+                    var(--d200-bleached-silk) calc(var(--i) * 3.5) calc(var(--i) * 4.5),
+                    transparent calc(var(--i) * 4.5) calc(var(--i) * 5.5),
+                    var(--d200-bleached-silk) calc(var(--i) * 5.5) calc(var(--i) * 6.5),
+                    transparent calc(var(--i) * 6.5) calc(var(--i) * 7.5),
+                    var(--d200-bleached-silk) calc(var(--i) * 7.5) calc(var(--i) * 8.5),
+                    transparent calc(var(--i) * 8.5) calc(var(--i) * 9.5),
+                    var(--d200-bleached-silk) calc(var(--i) * 9.5) calc(var(--i) * 10.5),
+                    transparent calc(var(--i) * 10.5) calc(var(--i) * 11.5),
+                    var(--d200-bleached-silk) calc(var(--i) * 11.5) calc(var(--i) * 12.5),
+                    transparent calc(var(--i) * 12.5) calc(var(--i) * 13.5),
+                    var(--d200-bleached-silk) calc(var(--i) * 13.5));
+}
 footer{
         display: flex;
         flex-direction: row;
