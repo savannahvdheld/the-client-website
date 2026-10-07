@@ -295,12 +295,12 @@ line{
                     var(--d200-bleached-silk) calc(var(--i) * 13.5));
 }
 
-footer{
+/* footer{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         background-color:#f2f2f2;
         width: 100%;
-}
+} */
 
