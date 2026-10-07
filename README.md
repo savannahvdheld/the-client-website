@@ -13,6 +13,7 @@ De instructie van deze leertaak staan in de [WIKI](https://github.com/fdnd-task/
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
+De link naar de pagina is: https://savannahvdheld.github.io/the-client-website/
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
