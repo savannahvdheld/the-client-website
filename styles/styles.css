@@ -223,7 +223,7 @@ h3 {
 /*styling Recommended sectie dashboard*/
 .recommended ul {
 
-  background: #dadada;
+  /*background: #dadada;*/
   /* display: grid; */
   /* grid-template-columns: 1fr 1fr 1fr; */
 
@@ -236,8 +236,12 @@ h3 {
   padding: 5%;
   list-style: none;
 
+  @media (min-width:768px){
+    background:var( --l900-night-rider);
+  }
+
   li {
-    background: #d6439f;
+    background: var(--l600-lustful-wishes);
     flex-grow:1;
     border-radius: 20px;
   }
@@ -252,13 +256,13 @@ h3 {
 
 
   li:nth-of-type(2) {
-    background: #66c7b4;
+    background: var(--l600-cockatoo);
     border-radius: 20px;
 
   }
 
   li:nth-of-type(3) {
-    background: #66b3df;
+    background: var(--l600-xavier-blue);
     border-radius: 20px;
   }
 }
