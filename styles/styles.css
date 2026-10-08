@@ -173,8 +173,7 @@ li {
 
 /*styling navigatie bar*/
 nav { 
-  display:grid;
-  /*moet nog ingevuld worden*/
+  display:grid;  
 }
 
   .layout {
@@ -273,7 +272,7 @@ h3 {
     border-radius: 20px;
   }
 
-    
+
 line{
 --i: calc(100% / 14);
 
