@@ -1,6 +1,6 @@
 // JS
 /****************************************/
-/* menu openen en sluiten met de button */
+/* menu openen en sluiten met de Hamburger button */
 /****************************************/
  
 /* JOUW CODE HIER - stap 4 */

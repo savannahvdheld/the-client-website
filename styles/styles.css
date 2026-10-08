@@ -147,7 +147,14 @@ display:grid;
 /*Styling logo*/
 .Logo_Pediaconnect {
   display: flex;
-  justify-self: center;
+  justify-content: left;
+  width: 50px;
+}
+
+.HamburgerMenu{
+  display:flex;
+  justify-self:right;
+  width: 50px;
 }
 
 /*styling header text*/
@@ -173,7 +180,8 @@ li {
 
 /*styling navigatie bar*/
 nav { 
-  display:grid;  
+  display:grid;
+  /*moet nog ingevuld worden*/
 }
 
   .layout {
@@ -272,7 +280,7 @@ h3 {
     border-radius: 20px;
   }
 
-
+    
 line{
 --i: calc(100% / 14);
 
@@ -295,12 +303,12 @@ line{
                     var(--d200-bleached-silk) calc(var(--i) * 13.5));
 }
 
- footer{
+/* footer{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         background-color:#f2f2f2;
         width: 100%;
-} 
+} */
 
