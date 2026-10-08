@@ -223,7 +223,7 @@ h3 {
 
 /*styling navigatie bar hover effect*/
 .sidebar a:hover {
-  background: #66c7b4;
+  background: var(--l700-night-rider);
 }
 
 
