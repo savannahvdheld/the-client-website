@@ -141,9 +141,10 @@ body {
   font-family: 'Tasa orbiter', sans-serif;
 }
 
-div.recommended{
-display:grid;
+div.recommended {
+  display: grid;
 }
+
 /*Styling logo*/
 .Logo_Pediaconnect {
   display: flex;
@@ -151,9 +152,9 @@ display:grid;
   width: 50px;
 }
 
-.HamburgerMenu{
-  display:flex;
-  justify-self:right;
+.HamburgerMenu {
+  display: flex;
+  justify-self: right;
   width: 50px;
 }
 
@@ -179,12 +180,12 @@ li {
 }
 
 /*styling navigatie bar*/
-nav { 
-  display:grid;
+nav {
+  display: grid;
   /*moet nog ingevuld worden*/
 }
 
-  .layout {
+.layout {
   /* display: grid; */
   /* grid-template-columns: 375px; */
   min-height: 100vh;
@@ -192,9 +193,9 @@ nav {
 
 .sidebar {
   background: #ffffff;
-  
-  display:grid;
-  grid-template-rows:1/4;
+
+  display: grid;
+  grid-template-rows: 1/4;
   border-radius: 20px;
   padding: 1rem;
 
@@ -234,7 +235,7 @@ h3 {
   /* display: grid; */
   /* grid-template-columns: 1fr 1fr 1fr; */
 
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   position: relative;
   gap: 1em;
@@ -242,68 +243,82 @@ h3 {
   margin: 3%;
   padding: 5%;
   list-style: none;
-  
-
-  @media (min-width:900px){
-    background:var( --l900-night-rider);
-  }
-
-  li {
-    background: var(--l600-lustful-wishes);
-    flex-grow:1;
-    border-radius: 20px;
-    
-  }
-
-  a {
-    display:block;
-    padding:1em;
-    text-decoration:none;
-    color:#322f2f;
-    font-size: 1.5em;
-    border-radius:20px;
-    box-shadow: 0px 6px 0px var(--l700-night-rider);
-  }
-  a:hover{
-    box-shadow: none;
 }
 
-  li:nth-of-type(2) {
-    background: var(--l600-cockatoo);
-    border-radius: 20px;
-    
 
+  /* @media (min-width:900px) {
+    background: var(--l900-night-rider);
+  } */
+
+  section.recommended ul{
+
+    a {
+      display: block;
+      padding: 1em;
+      text-decoration: none;
+      color: #322f2f;
+      font-size: 1.5em;
+      border-radius: 20px;
+      box-shadow: 0px 6px 0px var(--l700-night-rider);
+      
+    }
+    
+    a:hover {
+      box-shadow: none;
+    }
+    
+    li {
+      background: var(--l600-lustful-wishes);
+      flex-grow: 1;
+      border-radius: 20px;
+      
+    }
+    
+    li:nth-of-type(2) {
+      background: var(--l600-cockatoo);
+      border-radius: 20px;
+      
+      
+    }
+    
+    li:nth-of-type(3) {
+      background: var(--l600-xavier-blue);
+      border-radius: 20px;
+    }
   }
 
-  li:nth-of-type(3) {
-    background: var(--l600-xavier-blue);
+  .mixed {
+    background: #ffffff;
+    display: grid;
+    grid-template-rows: 1/4;
     border-radius: 20px;
+    padding: 1rem;
   }
 
-    
-line{
---i: calc(100% / 14);
 
-  height: 2px;
-  background: 
-    linear-gradient(to right, var(--d200-bleached-silk) calc(var(--i) / 2),
-                    transparent calc(var(--i) / 2) calc(var(--i) * 1.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 1.5) calc(var(--i) * 2.5),
-                    transparent calc(var(--i) * 2.5) calc(var(--i) * 3.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 3.5) calc(var(--i) * 4.5),
-                    transparent calc(var(--i) * 4.5) calc(var(--i) * 5.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 5.5) calc(var(--i) * 6.5),
-                    transparent calc(var(--i) * 6.5) calc(var(--i) * 7.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 7.5) calc(var(--i) * 8.5),
-                    transparent calc(var(--i) * 8.5) calc(var(--i) * 9.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 9.5) calc(var(--i) * 10.5),
-                    transparent calc(var(--i) * 10.5) calc(var(--i) * 11.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 11.5) calc(var(--i) * 12.5),
-                    transparent calc(var(--i) * 12.5) calc(var(--i) * 13.5),
-                    var(--d200-bleached-silk) calc(var(--i) * 13.5));
-}
+  line {
+    --i: calc(100% / 14);
 
-/* footer{
+    height: 2px;
+    background:
+      linear-gradient(to right, var(--d200-bleached-silk) calc(var(--i) / 2),
+        transparent calc(var(--i) / 2) calc(var(--i) * 1.5),
+        var(--d200-bleached-silk) calc(var(--i) * 1.5) calc(var(--i) * 2.5),
+        transparent calc(var(--i) * 2.5) calc(var(--i) * 3.5),
+        var(--d200-bleached-silk) calc(var(--i) * 3.5) calc(var(--i) * 4.5),
+        transparent calc(var(--i) * 4.5) calc(var(--i) * 5.5),
+        var(--d200-bleached-silk) calc(var(--i) * 5.5) calc(var(--i) * 6.5),
+        transparent calc(var(--i) * 6.5) calc(var(--i) * 7.5),
+        var(--d200-bleached-silk) calc(var(--i) * 7.5) calc(var(--i) * 8.5),
+        transparent calc(var(--i) * 8.5) calc(var(--i) * 9.5),
+        var(--d200-bleached-silk) calc(var(--i) * 9.5) calc(var(--i) * 10.5),
+        transparent calc(var(--i) * 10.5) calc(var(--i) * 11.5),
+        var(--d200-bleached-silk) calc(var(--i) * 11.5) calc(var(--i) * 12.5),
+        transparent calc(var(--i) * 12.5) calc(var(--i) * 13.5),
+        var(--d200-bleached-silk) calc(var(--i) * 13.5));
+  }
+
+  /* footer{
         display: flex;
         flex-direction: row;
         align-items: center;
