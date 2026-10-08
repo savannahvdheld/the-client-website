@@ -246,12 +246,20 @@ h3 {
 }
 
 
-  /* @media (min-width:900px) {
+ @media (min-width:900px) {
     background: var(--l900-night-rider);
-  } */
+  } 
 
   section.recommended ul{
 
+    ul.gridlist{
+      background:#ffffff;
+      padding: 1em;
+      text-decoration: none;
+      display:block;
+      font-size: 1.5em;
+      border-radius: 20px;
+    }
     a {
       display: block;
       padding: 1em;
@@ -287,14 +295,17 @@ h3 {
     }
   }
 
-  .mixed {
-    background: #ffffff;
+  section.mixed {
     display: grid;
     grid-template-rows: 1/4;
+    
     border-radius: 20px;
     padding: 1rem;
   }
 
+  li.grid-list{
+  background: #ffffff;
+  }
 
   line {
     --i: calc(100% / 14);
