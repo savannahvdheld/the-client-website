@@ -247,7 +247,7 @@ h3 {
 
 
  @media (min-width:900px) {
-    background: var(--l900-night-rider);
+  background: var(--l900-night-rider);
   } 
 
   section.recommended ul{
